@@ -1,0 +1,55 @@
+ody {
+    font-size: 25px;
+}
+h1 {
+    background-color: darkslategray;
+    color: white;
+}
+p{
+    color: red;
+}
+section p {
+    color: red
+    /* tous les <p> à l'intérieur de la balise <section> */
+}
+
+section p:first-child{
+    color: darkblue;
+}
+section p:nth-child(even){
+    color: lightskyblue;
+    /* les <p> pairs */
+
+}
+section p:last-child(odd){
+    color: lightgreen;
+}
+section p:nth-child(3),
+section p:nth-child(10){
+    color: orange;
+    /*les <p> 3, 10 */
+}
+.zone1 {
+    color:#008080;
+}
+.zone2 {
+    color:#00ff00;
+}
+.line {
+    color: palevioletred;
+}
+.zone3 {
+    background-color: aliceblue;
+}
+#zone3:after {
+    /*rajouter contenu après la zone 3*/
+    content: "rajouté après";
+}
+#zone3:before {
+    /*rajouter contenu après la zone 3*/
+    content: "rajouté avant";
+}
+li:nth-child(2) {
+    background-color: mediumpurple;
+    color: white;
+}

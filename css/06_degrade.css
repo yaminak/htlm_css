@@ -1,0 +1,9 @@
+.contenu {
+    background: linear-gradient(to left, #40a497, #6840a4);
+    /*dégradé qui démarre avec la 1ere coleur et fini avec la 2nd de haut en bas par default*/
+width: 45em;
+height: 45em;
+margin: 0 auto;
+border-radius: 50%;
+/* border-radius permet d'arrondir + ou - les angles */
+}
