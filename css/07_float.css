@@ -1,0 +1,36 @@
+body {
+    margin: auto;
+    background-color: antiquewhite;
+}
+div {
+    width: 90%;
+    margin: 0;
+    background-color: lightsteelblue;
+}
+p {
+    background-color: mediumaquamarine;
+}
+p span {
+    background-color: yellow;
+}
+
+.boite {
+    height: 194px;
+    width: 260px;
+    padding: 5vh;
+    background: url(../img/OIP.jfif);
+    background-repeat: no-repeat;
+    border: 5px double orchid;
+    margin: 2vh;
+    float: left;
+    transition: 3s;
+}
+.boite:hover {
+    margin-top: 10vh;
+}
+.clear {
+    clear: both;
+}
+p:hover {
+    color:blueviolet
+}

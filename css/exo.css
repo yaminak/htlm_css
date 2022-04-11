@@ -1,0 +1,12 @@
+p {
+   display: inline-block; 
+   float: left;
+   width: 250px;
+   height: auto;
+}
+
+img {
+    float: right;
+    width: auto;
+    height: auto;
+}

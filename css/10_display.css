@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(194, 159, 227);
+    display: block;
+}
+
+div{
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(194, 159, 227);
+    display: block;  
+}
+p {
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(194, 159, 227);
+    display: block;
+}
+section {
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(194, 159, 227);
+    display: block;
+}
+a {
+    text-align: left;
+    border: 1px solid black;
+    background-color: rgb(194, 159, 227);
+    display: block; 
+    width: 100px;
+}
+span {
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(194, 159, 227);
+    display: inline;
+    width: 100px;
+}
+
