@@ -1,0 +1,58 @@
+body {
+    color: lightcyan;
+    font-size: 25px;
+}
+#contener {
+    width: 960px;
+    margin: auto;
+}
+header { 
+     background-color: rgb(216, 143, 78);
+     height: 60px;
+     text-align: center;
+ }
+nav {
+    background-color: rgb(110, 70, 7);
+    height: 40px;
+    text-align: center;
+}
+section {
+    background-color: rgb(125, 183, 224);
+    height: 600px;
+    width: 960px;
+    margin: auto 0;    
+}
+footer {
+    background-color: grey;
+    height: 25px;
+    text-align: center;    
+}
+.zone{
+    width: 233px;
+    height: 130px;
+    border: 1px solid white;
+    text-align: center;
+    float: left;   
+}
+.zone1 {
+    background-color: rgb(226, 234, 131);
+}
+.zone2 {
+    background-color: rgb(105, 105, 205);  
+}
+.zone3 {
+    background-color: rgb(114, 81, 18);
+}
+.zone4 {
+    background-color: rgb(229, 224, 81);
+}
+.grandeZ {
+    float: left;
+    width: 470px;
+}
+.global {
+    height: auto;
+    width: 940px;
+}
+    
+

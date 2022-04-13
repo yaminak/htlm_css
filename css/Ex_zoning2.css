@@ -1,0 +1,84 @@
+header {
+    background-color: red;
+    height: 95px;
+    width: 800px;
+    text-align: center;
+    margin-inline-end: auto;
+
+}
+#contener {
+    width:800px ;
+    height: 600px;
+    margin: 10% auto;
+}
+section {
+    background-color: white;
+    height: 600px;
+    width: 800px;
+    margin: auto 0;
+}
+.colonneg {
+    background-color: blue;
+    float: left;
+    height:505px;
+    width: 135px;
+    border: 1px solid black;
+}
+.colonne1 {
+    background-color: rgb(56, 171, 28);
+    float: left;
+    height:410px;
+    width: 103px;
+    border: 1px solid black;
+}
+.colonne2 {
+    background-color: rgb(56, 171, 28);
+    float: left;
+    height: 410px;
+    width: 103px;
+    border: 1px solid black;
+}
+.colonne3 {
+    background-color: rgb(56, 171, 28);
+    float: left;
+    height:410px;
+    width: 103px;
+    border: 1px solid black;
+    }
+.colonne4 {
+    background-color: rgb(56, 171, 28);
+    float: left;
+    height:410px;
+    width: 103px;
+    border: 1px solid black;
+}
+.colonne5 {
+    background-color: rgb(56, 171, 28);
+    float: left;
+    height:410px;
+    width: 104px;
+    border: 1px solid black;
+}
+.colonned {
+    background-color: blue;
+    float: left;
+    height: 505px;
+    width: 135px;
+    border: 1px solid black;
+}
+.global {
+}
+footer {
+    width:524px;
+    height:93px;
+    background-color: yellow;
+    text-align: center;
+    border: 1px solid black;
+}
+.mid{
+    float: left;
+    width: 526px;
+}
+.clear {
+    clear: both;
+} 
