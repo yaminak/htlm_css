@@ -1,0 +1,54 @@
+header {
+    background: black;
+    padding: 0 0.9em;
+    position:fixed;
+    color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0 0 20px;
+    line-height: 2.7em;
+    float: left;
+}
+#mainp  {
+    width: 96%;
+    height: 570px;
+    background-color: lightblue;
+    border: 1px solid white;
+    width: 95%;
+    margin: 12px auto
+}
+#contener{
+    background: rgb(255, 255, 187);
+    width: 95%;
+    margin: 55px auto;
+    border: 1px solide white;
+    padding: 1%;
+    text-align: left;
+}
+div {
+    background-color: rgb(255, 255, 187);
+    border: 1px solid white;
+    float: left;
+    text-align: left;
+    width: 40%;
+    margin: 25px 50px;
+    padding: 20px;
+}
+#lastp {
+    background: rgb(255, 255, 187);
+    width: 95%;
+    margin: 55px auto;
+    border: 1px solide white;
+    padding: 1%;
+    text-align: left;   
+}
+.main {
+    width: 1600px;
+    height: 900px;
+    margin: 10px auto;
+   
+}
+mark {
+    background-color: rgb(134, 86, 180);
+}
