@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emmet</title>
+    <link rel="stylesheet" href="css/emmet.css" type="text/css" />
+  </head>
+  <body>
+    <!-- li>p -->
+    <li>
+      <p></p>
+    </li>
+    <!-- ul>li>p+a -->
+    <ul>
+      <li>
+        <p></p>
+        <a href=""></a>
+      </li>
+    </ul>
+    <!-- ul>li*3>p+img -->
+    <ul>
+      <li>
+        <p></p>
+        <img src="" alt="" />
+      </li>
+      <li>
+        <p></p>
+        <img src="" alt="" />
+      </li>
+      <li>
+        <p></p>
+        <img src="" alt="" />
+      </li>
+    </ul>
+    <!-- ul.wrapper -->
+    <ul class="wrapper"></ul>
+    <!-- .container -->
+    <div class="container"></div>
+    <ul>
+      <!-- ul>(header>ul>li*2>a)+footer>p -->
+      <header>
+        <ul>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </header>
+      <footer>
+        <p></p>
+
+        <!-- a{click me} -->
+        <a href="">click me</a>
+        <!-- ul>li.item$@3*5 -->
+        <ul>
+          <li class="item3"></li>
+          <li class="item4"></li>
+          <li class="item5"></li>
+          <li class="item6"></li>
+          <li class="item7"></li>
+        </ul>
+        <!-- ul>li.item$@-{pizza $@-}*5 -->
+        <ul>
+          <li class="item5">pizza 5</li>
+          <li class="item4">pizza 4</li>
+          <li class="item3">pizza 3</li>
+          <li class="item2">pizza 2</li>
+          <li class="item1">pizza 1</li>
+        </ul>
+        <!-- img [src="http://placecage.com/300/300" alt="nicCage"] -->
+        <img src="http://placecage.com/300/300" alt="nicCage" />
+      </footer>
+    </ul>
+  </body>
+</html>

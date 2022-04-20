@@ -1,0 +1,62 @@
+.contener {
+  width: 790px;
+  height: 1000px;
+  border: 2px solid rgb(5, 69, 2);
+  margin: 35px auto;
+}
+ul {
+  list-style: none;
+  border: 1px solid white;
+  padding: 10px;
+  color: aliceblue;
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+nav {
+  background-color: rgb(153, 234, 31);
+  width: 790px;
+  height: 35px;
+}
+
+h3 {
+  color: rgb(153, 234, 31);
+  text-decoration: underline;
+  border-bottom: 1px solid rgb(153, 234, 31);
+  width: 600px;
+  padding-left: 75px;
+  padding-right: 25px;
+}
+h4 {
+  color: rgb(153, 234, 31);
+  border-left: 2px solid rgb(153, 234, 31);
+  border-bottom: 1px solid rgb(153, 234, 31);
+  width: 600px;
+  padding-left: 75px;
+  padding-right: 25px;
+}
+p {
+  text-align: justify;
+  padding-left: 45px;
+  padding-right: 25px;
+}
+header {
+  background: url(../img/apple.jpg) left no-repeat;
+  height: 258px;
+  width: 100%;
+}
+header a {
+  background: url(../img/title.gif) right top no-repeat;
+  width: 397px;
+  height: 69px;
+  display: block;
+  position: relative;
+  right: 0px;
+  top: 20px;
+  right: 20px;
+  float: right;
+}
+
+.main {
+  background: url(../img/bg_page.gif) left no-repeat;
+}
