@@ -1,0 +1,65 @@
+.container {
+  background-color: #273978;
+  margin: 2vh auto;
+  border: 1px solid #273978;
+  color: white;
+  font-size: medium;
+  width: 50%;
+}
+
+h1 {
+  color: white;
+  width: 25%;
+  padding-top: 25px;
+  margin: 2vh auto;
+}
+figure {
+  border: 1px solid #273978;
+  width: 50%;
+}
+figcaption {
+  text-align: center;
+}
+section {
+  display: flex;
+  justify-content: center;
+  height: 280px;
+}
+@media only screen and (width:1200px){
+.container {
+    background-color: #273978;
+    margin: 2vh auto;
+    border: 1px solid #273978;
+    color: white;
+    font-size: medium;
+    width: 50%;
+  }
+  h1 {
+    color: white;
+    width: 25%;
+    padding-top: 25px;
+    margin: 2vh auto;
+  }
+  figure {
+    border: 1px solid #273978;
+    width: 50%;
+  }
+@media only screen and (width: 900px) {
+.container {
+    background-color: #273978;
+    margin: 2vh auto;
+    border: 1px solid #273978;
+    color: white;
+    font-size: medium;
+    width: 50%;
+  }
+  h1 {
+    color: white;
+    width: 25%;
+    padding-top: 25px;
+    margin: 2vh auto;
+  }
+  figure {
+    border: 1px solid #273978;
+    width: 50%;
+  }

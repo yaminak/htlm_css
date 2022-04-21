@@ -1,0 +1,29 @@
+.container {
+  background: #273978;
+  width: 50%;
+  margin: 2vh auto;
+  font-family: "shadow into light", cursive;
+  color: #fff;
+  border: #273978;
+}
+h1 {
+  text-align: center;
+  width: 25%;
+  margin: 2vh auto;
+  padding-top: 45px;
+}
+figure {
+  border: 1px solid #273978;
+  width: 50%;
+}
+.main {
+  width: 100%;
+}
+figcaption {
+  text-align: center;
+}
+section {
+  display: flex;
+  justify-content: center;
+  height: 280px;
+}
