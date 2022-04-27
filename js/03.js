@@ -1,0 +1,14 @@
+var nb1, nb2, resultat;
+var resultat2, resultat3, resultat4, resultat5, final;
+nb1 = 15;
+nb1 = nb1 + 5;
+nb2 = 4;
+nb3 = 3;
+resultat = nb1 + nb2;
+resultat2 = nb1 - nb2;
+resultat3 = nb1 * nb2;
+resultat4 = nb1 % nb3;
+resultat5 = nb1 / nb3;
+final = parseInt(resultat5);
+resultat5.toString();
+nb1 += 10;
