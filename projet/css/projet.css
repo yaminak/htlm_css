@@ -1,0 +1,134 @@
+.contenu {
+  border: 1px solid white;
+  margin: auto;
+  color: white;
+  width: 75%;
+}
+header {
+  border: 1px solid rgb(239, 239, 239);
+  background: linear-gradient(rgb(45, 253, 149), rgb(34, 193, 195));
+  border-radius: 5px;
+  width: auto;
+}
+.haut {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 45px;
+}
+#logo,
+.voyage {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+#logo img {
+  width: 23px;
+  height: 23px;
+}
+nav ul {
+  list-style-type: none;
+  justify-content: space-evenly;
+  display: flex;
+  margin: 25px;
+  line-height: 1px;
+}
+ul li a {
+  margin: 2px;
+  text-decoration: none;
+  color: white;
+  padding: 13px;
+}
+.bandeau {
+  border: 1px solid rgb(239, 239, 239);
+  width: auto;
+  height: 20px;
+  font-size: 10px;
+}
+main {
+  margin: auto;
+  width: 75%;
+}
+.par1 {
+  border: 1px solid rgb(239, 239, 239);
+  background: linear-gradient(rgb(86, 166, 241), rgb(191, 129, 148));
+  border-radius: 7px;
+  width: auto;
+  line-height: 20px;
+  height: 240px;
+  font-size: 10px;
+  display: flex;
+  margin-top: 15px;
+  padding: 5px 15px 15px 5px;
+}
+.tai {
+  width: 55%;
+  padding-left: 25px;
+  justify-content: justify;
+}
+.jap,
+.inde {
+  width: 55%;
+  justify-content: justify;
+}
+.par2 {
+  border: 1px solid rgb(239, 239, 239);
+  background: linear-gradient(rgb(70, 134, 195), rgb(97, 227, 194));
+  border-radius: 7px;
+  width: auto;
+  line-height: 20px;
+  height: 240px;
+  font-size: 10px;
+  display: flex;
+  margin-top: 15px;
+  padding: 10px 15px;
+}
+.par3 {
+  border: 1px solid rgb(239, 239, 239);
+  background: linear-gradient(rgb(92, 144, 181), rgb(226, 132, 23));
+  border-radius: 7px;
+  width: auto;
+  line-height: 25px;
+  height: 240px;
+  font-size: 10px;
+  display: flex;
+  padding: 15px;
+  margin-top: 15px;
+  padding: 10px 10px;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 90%;
+  margin: auto;
+  padding: 10px;
+}
+marquee {
+  width: 100%;
+  padding: 10px 0;
+  line-height: 1px;
+}
+footer {
+  border: 1px solid rgb(239, 239, 239);
+  background: linear-gradient(rgb(45, 253, 149), rgb(34, 193, 195));
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 55px;
+  margin-top: 15px;
+  font-size: smaller;
+}
+.bas {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.icon {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+/* @media screen and (max-width: 992px) .haut {
+  flex-flow: column wrap;
+  width: 100%;
+} */
