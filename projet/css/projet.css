@@ -50,17 +50,24 @@ main {
   margin: auto;
   width: 75%;
 }
+section {
+  display: flex;
+}
+
+section div {
+  width: 50%;
+  margin: auto;
+  padding: 0px 15px;
+}
+section div img {
+  align-items: center;
+  justify-content: center;
+}
 .par1 {
   border: 1px solid rgb(239, 239, 239);
   background: linear-gradient(rgb(86, 166, 241), rgb(191, 129, 148));
   border-radius: 7px;
   width: auto;
-  line-height: 20px;
-  height: 240px;
-  font-size: 10px;
-  display: flex;
-  margin-top: 15px;
-  padding: 5px 15px 15px 5px;
 }
 .tai {
   width: 55%;
@@ -77,12 +84,6 @@ main {
   background: linear-gradient(rgb(70, 134, 195), rgb(97, 227, 194));
   border-radius: 7px;
   width: auto;
-  line-height: 20px;
-  height: 240px;
-  font-size: 10px;
-  display: flex;
-  margin-top: 15px;
-  padding: 10px 15px;
 }
 .par3 {
   border: 1px solid rgb(239, 239, 239);
@@ -90,19 +91,12 @@ main {
   border-radius: 7px;
   width: auto;
   line-height: 25px;
-  height: 240px;
-  font-size: 10px;
-  display: flex;
-  padding: 15px;
-  margin-top: 15px;
-  padding: 10px 10px;
 }
 img {
   width: 150px;
   height: 150px;
-  border-radius: 90%;
+  border-radius: 50%;
   margin: auto;
-  padding: 10px;
 }
 marquee {
   width: 100%;
@@ -128,7 +122,53 @@ footer {
   margin-top: 20px;
   margin-right: 10px;
 }
-/* @media screen and (max-width: 992px) .haut {
-  flex-flow: column wrap;
-  width: 100%;
-} */
+@media screen and (max-width: 992px) {
+  .haut {
+    flex-basis: auto;
+  }
+  section div {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .main {
+    flex-basis: auto;
+  }
+  .bas {
+    flex-basis: auto;
+  }
+}
+@media screen and (max-width: 780px) {
+  section div {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .main,
+  nav {
+    display: flex;
+    width: 50%;
+    font-size: xx-small;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .bas {
+    flex-wrap: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .par1,
+  .par2,
+  .par3 {
+    display: flex;
+    flex-direction: column;
+    line-height: 17px;
+    padding: 0px 15px;
+  }
+  img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+  }
+}

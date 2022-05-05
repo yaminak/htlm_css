@@ -109,5 +109,55 @@
 //   document.write("ce n'est pas un multiple de 5");
 // }
 
-var nb2 = Number(prompt("entrez nb1 :"));
-document.write(typeof nb2);
+// var nb2 = Number(prompt("entrez nb1 :"));
+// document.write(typeof nb2);
+
+// var nom = prompt("c'est un essai");
+// alert(nom);
+
+// var nombre = prompt("votre nombre");
+// if (nombre == 5) {
+//   document.write(nombre);
+// }
+// var nombre = prompt("votre nombre");
+// var montant = nombre % 13;
+// if (montant == 0) {
+//   document.write(nombre + "est un mutiple de 13");
+// } else {
+//   document.write(nombre + "est pas un mutiple de 13" + "&nbsp" + montant);
+// }
+
+// var nb1 = prompt("votre nombre");
+// var mod = nb1 % 7;²
+// if (isNaN(result)) {
+//   document.write(
+//     nb1 + "&nbsp" + "est une chaine de carctère composée de lettres"
+//   );
+// } else {
+//   var final = result % 7;
+// }
+// if (final == 0) {
+//   document.write(
+//     result +
+//       "&nbsp" +
+//       "est un mutiple de 7" +
+//       "&nbsp" +
+//       "votre modulo est de:" +
+//       mod
+//   );
+// } else {
+//   document.write(result + "&nbsp" + "votre nombre n'est pas un mutiple de 7");
+// }
+// var cel = prompt("quel degré?");
+// var far = cel * 1.8 + 32;
+// document.write("la valeur est de :" + "&nbsp" + far + "°F");
+
+var var1 = 25;
+var var2 = "arbre";
+var var3;
+
+var3 = var1;
+var1 = var2;
+var2 = var3;
+var2 = prompt("votre saisie");
+document.write(var1 + "&nbsp" + "est égale à une chaine de caractère");
