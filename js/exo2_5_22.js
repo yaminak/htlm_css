@@ -152,12 +152,89 @@
 // var far = cel * 1.8 + 32;
 // document.write("la valeur est de :" + "&nbsp" + far + "°F");
 
-var var1 = 25;
-var var2 = "arbre";
-var var3;
+// var var1 = 25;
+// var var2 = "arbre";
+// var var3;
 
-var3 = var1;
-var1 = var2;
-var2 = var3;
-var2 = prompt("votre saisie");
-document.write(var1 + "&nbsp" + "est égale à une chaine de caractère");
+// var3 = var1;
+// var1 = var2;
+// var2 = var3;
+// var2 = prompt("votre saisie");
+// document.write(var1 + "&nbsp" + "est égale à une chaine de caractère");
+// var j = prompt("Inserez votre prénom :");
+// while (j !== "monNom") {
+//   j = prompt("la valeur n'est pas correcte, Inserez votre prénom");
+// }
+// document.write("<hr/><Votre prénom est:" + j + "</p>");
+// var tps = 0;
+// for (var mesSous = 1000; mesSous < 2000; mesSous += 50) {
+//   tps++;
+//   document.write(
+//     "vous avez mis:" +
+//       mesSous +
+//       "€" +
+//       "&nbsp" +
+//       "donc" +
+//       tps +
+//       "<br>" +
+//       "mois" +
+//       "<br>"
+//   );
+// }
+// var temps = 0;
+// var mesSous = 0;
+// while (mesSous <= 2000) {
+//   mesSous += 50;
+//   temps++;
+//   document.write(
+//     "vous avez mis:" +
+//       mesSous +
+//       "€" +
+//       "&nbsp" +
+//       "donc" +
+//       temps +
+//       "<br>" +
+//       "mois" +
+//       "<br>"
+//   );
+// }
+
+// var majoriteFR = 18;
+// var age = parseInt(prompt("Entrez votre âge"));
+// while (age >= 3 || age < 120) {
+//   age = parseInt(prompt("Entrez votre âge"));
+//   if (age > 3 && age < majoriteFR) {
+//     alert("Allez voir un autre site...");
+//   }
+//   if (age >= majoriteFR && age <= 120) {
+//     alert("Bienvenue");
+//   }
+// }
+var jour = prompt("quel jour sommes-nous?");
+switch (jour) {
+  case "lundi":
+    console.log("demain est on mardi");
+    break;
+  case "mardi":
+    console.log("demain est on mercredi");
+    break;
+  case "mercredi":
+    console.log("demain est on jeudi");
+    break;
+  case "jeudi":
+    console.log("demain est on vendredi");
+    break;
+  case "vendredi":
+    console.log("demain est on samedi");
+    break;
+  case "samedi":
+    console.log("demain est on dimanche");
+    break;
+  case "dimanche":
+    console.log("demain est on lundi");
+    break;
+  default:
+    console.log(
+      "Désolé, vérifiez l'orthographe et veuillez écrire sans majuscules."
+    );
+}

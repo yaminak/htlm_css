@@ -1,0 +1,120 @@
+.contenu {
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid white;
+  margin: auto;
+  width: 60%;
+}
+.body {
+  width: 100%;
+}
+/* partie du haut*/
+header {
+  background-image: url("../../consignes/img/texture_bare_4570_1_thumbnail.jpg");
+  width: auto;
+  height: 390px;
+}
+.haut {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.haut p {
+  padding-top: 5px;
+  padding-left: 15px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly;
+  margin: 25px;
+  line-height: 1px;
+}
+ul li a {
+  text-decoration: none;
+  margin: 2px;
+  padding: 13px;
+  color: black;
+}
+.img_cerf {
+  display: flex;
+  justify-content: center;
+  margin-top: 49px;
+}
+/*partie du milieu 1*/
+main {
+  margin: auto;
+  width: auto;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+section div {
+  justify-content: flex-end;
+  width: 60%;
+}
+.text1 {
+  justify-content: flex-start;
+  width: 40%;
+  padding-right: 40px;
+}
+h2,
+p {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.p1 {
+  color: rgb(191, 73, 112);
+}
+/*partie du milieu 2*/
+
+.graine {
+  justify-content: flex-start;
+  width: 40%;
+}
+figure .img_grainep {
+  padding-left: 140px;
+  margin-top: 30px;
+}
+.img_graineg img {
+  padding-left: 160px;
+}
+figure .img_grainep {
+  padding-left: 140px;
+  padding-bottom: 15px;
+}
+figcaption .fig1 {
+  justify-content: center;
+  width: auto;
+}
+/*partie du milieu 3*/
+figure .img_graineg {
+  padding-left: 40px;
+}
+figure .img_graineg {
+  padding-left: 10px;
+}
+figcaption .fig2 {
+  justify-content: center;
+}
+/*partie du milieu 4*/
+.sec4 img {
+  width: 1125px;
+  height: 550px;
+}
+footer {
+  background-image: url("../../consignes/img/motif.jpg");
+  display: flex;
+}
+.adresse {
+  justify-content: flex-start;
+}
+.icon {
+  display: flex;
+  justify-content: flex-end;
+}
