@@ -12,7 +12,16 @@
 header {
   background-image: url("../../consignes/img/texture_bare_4570_1_thumbnail.jpg");
   width: auto;
-  height: 390px;
+  height: 380px;
+}
+#triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 95px solid rgb(191, 73, 112);
+  border-left: 95px solid transparent;
+  align-self: center;
+  position: absolute;
+  z-index: 1;
 }
 .haut {
   display: flex;
@@ -41,78 +50,95 @@ ul li a {
   display: flex;
   justify-content: center;
   margin-top: 49px;
+  z-index: 3;
 }
 /*partie du milieu 1*/
 main {
   margin: auto;
   width: auto;
 }
+.sec1 {
+  border: 1px solid white;
+  width: auto;
+  height: 406px;
+}
 section {
   display: flex;
   flex-direction: row;
-  width: auto;
 }
 section div {
-  justify-content: flex-end;
+  align-self: flex-end;
   width: 60%;
 }
 .text1 {
   justify-content: flex-start;
-  width: 40%;
-  padding-right: 40px;
+  margin-bottom: 25px;
 }
 h2,
 p {
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 }
 .p1 {
   color: rgb(191, 73, 112);
 }
 /*partie du milieu 2*/
-
+.sec2 {
+  border: 1px solid white;
+  width: auto;
+  height: 537px;
+}
 .graine {
   justify-content: flex-start;
   width: 40%;
 }
-figure .img_grainep {
-  padding-left: 140px;
-  margin-top: 30px;
-}
-.img_graineg img {
-  padding-left: 160px;
-}
+
 figure .img_grainep {
   padding-left: 140px;
   padding-bottom: 15px;
 }
-figcaption .fig1 {
+figcaption {
   justify-content: center;
   width: auto;
 }
 /*partie du milieu 3*/
-figure .img_graineg {
-  padding-left: 40px;
+.graine1 {
+  flex-direction: column;
 }
-figure .img_graineg {
-  padding-left: 10px;
+.sec3 {
+  border: 1px solid white;
+  width: auto;
+  height: 452px;
 }
-figcaption .fig2 {
-  justify-content: center;
-}
-/*partie du milieu 4*/
+
+/*partie du milieu 4 */
 .sec4 img {
-  width: 1125px;
-  height: 550px;
+  border: 1px solid white;
+  width: 1132px;
+  height: auto;
 }
+/*dernière partie*/
 footer {
+  border: 1px solid white;
   background-image: url("../../consignes/img/motif.jpg");
+  width: auto;
+  height: 345px;
+}
+h3 {
+  padding-left: 45px;
+  padding-top: 75px;
+}
+#adress {
   display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 1px solid white;
 }
 .adresse {
-  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: left;
 }
 .icon {
   display: flex;

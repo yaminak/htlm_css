@@ -210,31 +210,56 @@
 //     alert("Bienvenue");
 //   }
 // }
-var jour = prompt("quel jour sommes-nous?");
-switch (jour) {
-  case "lundi":
-    console.log("demain est on mardi");
-    break;
-  case "mardi":
-    console.log("demain est on mercredi");
-    break;
-  case "mercredi":
-    console.log("demain est on jeudi");
-    break;
-  case "jeudi":
-    console.log("demain est on vendredi");
-    break;
-  case "vendredi":
-    console.log("demain est on samedi");
-    break;
-  case "samedi":
-    console.log("demain est on dimanche");
-    break;
-  case "dimanche":
-    console.log("demain est on lundi");
-    break;
-  default:
-    console.log(
-      "Désolé, vérifiez l'orthographe et veuillez écrire sans majuscules."
-    );
+// var jour = prompt("quel jour sommes-nous?");
+// switch (jour) {
+//   case "lundi":
+//     console.log("demain est on mardi");
+//     break;
+//   case "mardi":
+//     console.log("demain est on mercredi");
+//     break;
+//   case "mercredi":
+//     console.log("demain est on jeudi");
+//     break;
+//   case "jeudi":
+//     console.log("demain est on vendredi");
+//     break;
+//   case "vendredi":
+//     console.log("demain est on samedi");
+//     break;
+//   case "samedi":
+//     console.log("demain est on dimanche");
+//     break;
+//   case "dimanche":
+//     console.log("demain est on lundi");
+//     break;
+//   default:
+//     console.log(
+//       "Désolé, vérifiez l'orthographe et veuillez écrire sans majuscules."
+//     );
+// }
+// var cond1 = Number(prompt("c'est cond1"));
+// var cond2 = Number(prompt("c'est cond2"));
+// var cond3 = Number(prompt("c'est cond3"));
+
+// if (cond1 > cond2) {
+//   cond1 = cond3 * 2;
+//   document.write("la valeur est:" + cond1);
+// } else if (cond3 < cond2) {
+//   +cond1++;
+//   document.write("la valeur est:" + cond3);
+//   if (cond1 == cond3) {
+//     cond2 = cond1 + cond3 * 3;
+//   }
+//   else {
+//     alert("je suis perdu(e) !");
+//   }
+
+// }
+var test1 = Number(prompt("quel est votre saisie"));
+if (test1 < 20) {
+  test1 += 50;
+} else if (test1 > 20) {
+  test1 * 3;
+  document.write("la valeur finale est de:" + test1);
 }
