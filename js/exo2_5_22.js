@@ -254,12 +254,3 @@
 //   else {
 //     alert("je suis perdu(e) !");
 //   }
-
-// }
-var test1 = Number(prompt("quel est votre saisie"));
-if (test1 < 20) {
-  test1 += 50;
-} else if (test1 > 20) {
-  test1 * 3;
-  document.write("la valeur finale est de:" + test1);
-}
