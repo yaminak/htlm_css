@@ -1,0 +1,104 @@
+.cantainer {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(196, 199, 203);
+}
+main {
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 12px;
+  margin: auto;
+  width: 60%;
+}
+header {
+  background-color: rgb(216, 219, 223);
+  width: auto;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(111, 192, 239);
+  width: auto;
+  height: 56px;
+}
+ul li {
+  list-style-type: none;
+  color: white;
+  line-height: 55px;
+}
+.rose {
+  background-color: palevioletred;
+  width: 200px;
+}
+.services {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+.texteImp {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  justify-content: space-evenly;
+}
+.paiement {
+  padding: 15px 25px 10px 9px;
+}
+.nos_infos {
+  padding: 15px 55px 5px 9px;
+}
+.livraison,
+.produits_échangeables {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  justify-content: space-evenly;
+  padding-right: 25px;
+  margin-left: 25px;
+}
+h3,
+h2 {
+  color: rgb(101, 174, 216);
+}
+.plan_head,
+.coup_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bon_plan,
+.coup_de_coeur {
+  display: flex;
+  flex-direction: column;
+}
+.bordure {
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 30%;
+}
+.p1 {
+  background-color: rgb(216, 219, 223);
+  line-height: 35px;
+  font-weight: bold;
+  text-justify: center;
+}
+.Bon_coup_objectif {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 25px 10px 10px;
+}
+footer {
+  background-color: rgb(111, 192, 239);
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  height: 50px;
+}
