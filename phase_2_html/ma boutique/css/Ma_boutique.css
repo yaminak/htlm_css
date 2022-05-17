@@ -1,17 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .cantainer {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(196, 199, 203);
+
 }
 main {
   border: 1px solid white;
   background-color: white;
-  box-shadow: 12px;
   margin: auto;
   width: 60%;
 }
 header {
   background-color: rgb(216, 219, 223);
-  width: auto;
+  width: 100%;
+  
 }
 .logo {
   display: flex;
@@ -31,14 +36,19 @@ ul li {
   color: white;
   line-height: 55px;
 }
-.rose {
+nav li:hover {
   background-color: palevioletred;
-  width: 200px;
+  padding-left: -180;
+  width: 19%;
+  cursor: pointer;
+  transition: 0.3s;
+ 
 }
 .services {
   border: 1px solid white;
   display: flex;
   flex-direction: column;
+  
 }
 .texteImp {
   display: flex;
@@ -66,15 +76,19 @@ h2 {
   color: rgb(101, 174, 216);
 }
 .plan_head,
-.coup_head {
+.coup_head, .objectif_head {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
 }
-.bon_plan,
-.coup_de_coeur {
+
+/* .bon_plan, .coup_de_coeur, .Objectif_Plaisir {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
+  */
 }
 .bordure {
   border: 1px solid black;
@@ -90,15 +104,88 @@ h2 {
   font-weight: bold;
   text-justify: center;
 }
-.Bon_coup_objectif {
-  display: flex;
-  flex-direction: row;
-  margin: 15px 25px 10px 10px;
-}
+
 footer {
   background-color: rgb(111, 192, 239);
   color: white;
   padding-top: 5px;
   text-align: center;
   height: 50px;
+  width: auto;
 }
+
+@media screen and (max-width: 600px){
+  header {
+    width: 100%;
+    overflow: hidden;
+
+  }
+  main {
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    justify-content: center;
+  }
+  nav ul li {
+    line-height: 35px;
+    
+  }
+ .bandeau img {
+    width: 590px;
+
+  }
+  .texteImp {
+    display: flex;
+    flex-direction: column;
+  }
+  .livraison, .produits_échangeables{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+  }
+  .livraison p, .produits_échangeables p {
+    padding: 5px;
+    margin: auto;
+    
+  }
+  h3,
+  h2 {
+    color: rgb(28, 80, 111);
+    text-shadow: 1px 4px 2px 0.5;
+    padding-bottom: 15px;
+    
+  }
+.paiement {
+  margin: auto;
+  padding: 15px;
+  text-justify: justify;
+}
+.nos_infos {
+  margin: auto;
+  padding: 55px;
+  text-justify: justify;
+}
+.services {
+  margin: auto;
+  padding-right: 179px;
+  
+}
+.bordure {
+  width: 100%;
+  margin: 15px;
+}
+footer {
+  width: 100%;
+  justify-content: center;
+
+}
+footer p {
+ flex-flow: column wrap;
+}
+
+/* @media screen and (min-width: 900px) {
+  
+} */

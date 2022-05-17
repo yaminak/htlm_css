@@ -1,34 +1,58 @@
-/*
- Activité : jeu de devinette
- */
+// /*
+//  Activité : jeu de devinette
+//  */
 
-alert("Hello et bienvenue !");
+// alert("Hello et bienvenue !");
 
-// Cette ligne génère aléatoirement un nombre entre 1 et 100
+// // Cette ligne génère aléatoirement un nombre entre 1 et 100
+// var solution = Math.floor(Math.random() * 100) + 1;
+
+// // TEST pour mieux vérifier le programme
+// console.log("(La solution est " + solution + ")");
+
+// for (var i = 1; i <= 6; i++) {
+//     nbJoueur = parseInt(prompt("Le but du jeu est simple. Je pense à un nombre entre 0 et 100. A ton avis, quel est ce nombre ? Notes le dans la zone ci-dessous, tu as 6 essais."));
+//     if (!isNaN(nbJoueur)) {
+//         if (solution === nbJoueur) {
+//             alert("Bravo vous avez trouvé !");
+//             i = 6;
+//         } else {
+//             if (solution < nbJoueur) {
+//                 alert("Le nombre est plus petit, essai " + i + " sur 6");
+//             } else {
+//                 alert("Le nombre est plus grand, essai " + i + " sur 6");
+//             }
+//         }
+//     } else {
+//         alert("Vous n'avez pas saisi un nombre !");
+//     }
+// }
+
+
+
+
+// alert("La bonne réponse est " + solution + ".");
+
+
+alert("ようこそ !!! 新しい ゲーム を 遊ぼう...");
+
 var solution = Math.floor(Math.random() * 100) + 1;
-
-// TEST pour mieux vérifier le programme
-console.log("(La solution est " + solution + ")");
-
-for (var i = 1; i <= 6; i++) {
-    nbJoueur = parseInt(prompt("Le but du jeu est simple. Je pense à un nombre entre 0 et 100. A ton avis, quel est ce nombre ? Notes le dans la zone ci-dessous, tu as 6 essais."));
-    if (!isNaN(nbJoueur)) {
-        if (solution === nbJoueur) {
-            alert("Bravo vous avez trouvé !");
-            i = 6;
-        } else {
-            if (solution < nbJoueur) {
-                alert("Le nombre est plus petit, essai " + i + " sur 6");
-            } else {
-                alert("Le nombre est plus grand, essai " + i + " sur 6");
-            }
-        }
+for (var i = 1; i <= 23; i++) {
+    num_user = parseInt(prompt("1から100までの数字を一つ選びなさい"));
+if(!isNaN(num_user)) {
+    if (solution === num_user) {
+        alert("おめでとう ございます! "); 
+        i = 6;
     } else {
-        alert("Vous n'avez pas saisi un nombre !");
+        if( solution < num_user) {
+            alert( "ざんえん ですね ! もう いかい やってみてください" + "数字 は もっと ちいさい ですよ" +" 6 段階中 " + i );
+        }else{
+            alert("数字 は もっと 大きい ですよ" +" 6 段階中 : "+ i );
     }
 }
+  }  else {
+      alert("数字 が ありません");
+  }
+}
 
-
-
-
-alert("La bonne réponse est " + solution + ".");
+alert ("せいかい の こたえ は" + solution + "です.");
