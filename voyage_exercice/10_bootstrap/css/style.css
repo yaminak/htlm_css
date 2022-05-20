@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&family=Texturina:ital,wght@0,700;0,900;1,100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    border: 1px solid transparent;
+    width: 1200px;
+    margin:auto;
+}
+h1, h2, h3, h4, h5, h6, em, footer p{
+    font-family: 'Texturina', serif;
+}
+#projects .card img{
+    height: 100%;
+    overflow-y: hidden;
+}
+.carte2 {
+    font-size: small; 
+}
+
+.carte1 {
+    font-size: medium;
+}
+iframe{
+    border: 5px solid #444b50;
+    border-radius: 6px;
+}
+
+footer p{
+    font-size:19px;
+}
+
+footer a:hover i{
+    color: #df8a13;
+}
